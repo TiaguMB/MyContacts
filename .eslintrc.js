@@ -14,5 +14,6 @@ module.exports = {
 		indent: ['error', 'tab'],
 		'no-tabs': ['error', { allowIndentationTabs: true }],
 		'class-methods-use-this': 'off',
+		'consistent-return': 'off',
 	},
 };
