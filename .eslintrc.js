@@ -15,5 +15,6 @@ module.exports = {
 		'no-tabs': ['error', { allowIndentationTabs: true }],
 		'class-methods-use-this': 'off',
 		'consistent-return': 'off',
+		camelcase: 'off',
 	},
 };
