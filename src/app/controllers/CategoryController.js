@@ -13,7 +13,7 @@ class CategoryController {
 
 		const category = await CategoryRepository.findById(id);
 
-		if (!category) return response.status(404).json({ error: 'Contact not found!' });
+		if (!category) return response.status(404).json({ error: 'Category not found!' });
 
 		response.json(category);
 	}
