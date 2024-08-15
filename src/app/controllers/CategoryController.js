@@ -9,7 +9,7 @@ class CategoryController {
 	}
 
 	async show(request, response) {
-		const { id } = request.body;
+		const { id } = request.params;
 
 		const category = await CategoryRepository.findById(id);
 
