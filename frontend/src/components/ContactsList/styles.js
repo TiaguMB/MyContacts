@@ -29,3 +29,7 @@ export const Header = styled.header`
     }
   }
 `;
+
+export const ListContainer = styled.div`
+
+`;
